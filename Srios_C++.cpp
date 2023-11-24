@@ -11,12 +11,6 @@ class producto {
     string marca;     // Atributo
 };
 
-class bebida: public producto {
-  public:
-    string sabor;
-    bool efervescencia; 
-};
-
 void get_input(vector<producto> & p1, int n1){   
   for (int i=0; i<n1; i++) { 
       producto s;
